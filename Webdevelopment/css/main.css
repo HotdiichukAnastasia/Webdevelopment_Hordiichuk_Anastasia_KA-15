@@ -1,0 +1,237 @@
+@font-face {
+    font-family: "Aristotelica Pro Text";
+    src:url('font/aristotelica-pro-text-extralight.ttf') format("truetype") ;
+}
+@font-face {
+    font-family: 'Lovelace Text';
+    src:url('font/lovelace-text-regular.ttf') format("truetype");
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    margin: 0;
+    font-family: "Lovelace Text" "Aristotelica Pro Text";}
+
+.top-panel{
+    background-color: #C3B49E;
+    color: #353535;
+    position: absolute;
+    width: 1285px;
+    height: 115px;
+    left: -24px;
+    top: 13px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-panel .logo{
+    height: 129px;
+    width: 225px;
+    left: 0px;
+    top: 60px;
+    background: url("images/logo.png");
+    mix-blend-mode: multiply;
+}
+
+/* Головна */
+.top-panel nav a:nth-child(1) {
+    position: absolute;
+    width: 148px;
+    height: 33px;
+    left: 370px;
+    top: 55px;
+    font-family: "Aristotelica Pro Text";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 33px;
+    text-align: center;
+    color: #353535;
+}
+
+/* Про нас */
+.top-panel nav a:nth-child(2) {
+    position: absolute;
+    width: 148px;
+    height: 33px;
+    left: 530px;
+    top: 55px;
+    font-family: "Aristotelica Pro Text";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 33px;
+    text-align: center;
+    color: #353535;
+}
+
+/* Команда */
+.top-panel nav a:nth-child(3) {
+    position: absolute;
+    width: 148px;
+    height: 33px;
+    left: 690px;
+    top: 55px;
+    font-family: "Aristotelica Pro Text";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 33px;
+    text-align: center;
+    color: #353535;
+}
+
+/* Послуги */
+.top-panel nav a:nth-child(4) {
+    position: absolute;
+    width: 148px;
+    height: 33px;
+    left: 850px;
+    top: 55px;
+    font-family: "Aristotelica Pro Text";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 33px;
+    text-align: center;
+    color: #353535;
+}
+
+/* Галерея */
+.top-panel nav a:nth-child(5) {
+    position: absolute;
+    width: 147px;
+    height: 33px;
+    left: 1148px;
+    top: 55px;
+    font-family: "Aristotelica Pro Text";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 33px;
+    text-align: center;
+    color: #353535;
+}
+
+/* Відгуки */
+.top-panel nav a:nth-child(6) {
+    position: absolute;
+    width: 128px;
+    height: 33px;
+    left: 1010px;
+    top: 55px;
+    font-family: "Aristotelica Pro Text";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 33px;
+    text-align: center;
+    color: #353535;
+}
+
+.language-button {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1256px;
+    top: 140px;
+    background: #6B7565;
+}
+
+.language-button span{
+    margin-left: auto;
+}
+
+.ua-flag, .usa-flag{
+    position: absolute;
+    width: 42px;
+    height: 26px;
+    left: 1398px;
+    top: 125px;
+    font-family: "Lovelace Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: #F6F7F3;
+}
+
+.usa-flag{
+    display: none;
+}
+
+.background{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content h1{
+    position: absolute;
+    width: 1169px;
+    height: 287px;
+    left: 136px;
+    top: 314px;
+    font-family: "Lovelace Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #C3B49E;
+}
+
+.button-for-consultation{
+    position: absolute;
+    width: 526px;
+    height: 100px;
+    left: 100px;
+    top: 720px;
+    font-family: "Aristotelica Pro Text";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 26px;
+    text-align: center;
+    color: #F6F7F3;
+    border: 1px solid #1E1E1E;
+    background-color: #6B7565;
+}
+
+.button-for-more{
+    position: absolute;
+    width: 526px;
+    height: 100px;
+    left:px;
+    top: 720px;
+    font-family: "Aristotelica Pro Text";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 26px;
+    text-align: center;
+    color: #C3B49E;
+    background-color: #F6F7F3;  
+}
+
+footer{
+    background-color: #6B7565;
+    color: #C3B49E;
+    padding: 20px;
+    text-align: left;
+    font-family: "Aristotelica Pro Text";
+    font-size: 30px;
+}
