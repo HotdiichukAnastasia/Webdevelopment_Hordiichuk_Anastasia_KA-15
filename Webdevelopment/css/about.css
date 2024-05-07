@@ -1,0 +1,148 @@
+@import url('file:///Users/Admin/Desktop/Webdevelopment/css/mobile-about.css');
+@import url('file:///Users/Admin/Desktop/Webdevelopment/css/laptop-about.css');
+@font-face {
+    font-family: "Aristotelica Pro Text";
+    src:url('file:///Users/Admin/Desktop/Webdevelopment/font/aristotelica-pro-text-extralight.ttf') format("truetype") ;
+}
+@font-face {
+    font-family: 'Lovelace Text';
+    src:url('file:///Users/Admin/Desktop/Webdevelopment/font/lovelace-text-regular.ttf') format("truetype");
+}
+body{
+    margin: 0;
+    font-family: "Lovelace Text" "Aristotelica Pro Text";
+    background: linear-gradient(141.67deg, #f6f7f6 22.08%, #c3b49e 97.84%);
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    width: 241px;
+    height: 129px;
+    left: 1014px;
+    top: 0px;
+}
+ h1{
+    position: absolute;
+    width: 318px;
+    height: 75px;
+    left: 15px;
+    top: 0px;
+    font-family: "Lovelace Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #353535;
+}
+.about-text{
+    position: absolute;
+    width: 1263px;
+    height: 74px;
+    left: 0px;
+    top: 100px;
+    font-family: "Aristotelica Pro Text";
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    color:#353535;
+}
+.salon-image{
+    position: absolute;
+    width: 438px;
+    height: 1033px;
+    left: 0px;
+    top: -9px;
+    background-image: url("file:///Users/Admin/Desktop/Webdevelopment/images/salon.jpg" );
+}
+.info{
+    position: absolute;
+    width: 900px;
+    height: 87px;
+    left: 467px;
+    top: 284px;
+    font-family: "Aristotelica Pro Text";
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: center;
+    color:#353535;
+}
+.contact-info h2{
+    position: absolute;
+    width: 134px;
+    height: 35px;
+    left: 1084px;
+    top: 764px;
+    font-family: "Lovelace Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    color: #353535;
+}
+.contact-info p{
+    position: absolute;
+    width: 400px;
+    height: 24px;
+    left: 962px;
+    top: 820px;
+    font-family: "Aristotelica Pro Text";
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 25px;
+    color: #353535;
+}
+.title h2{
+    position: absolute;
+    width: 534px;
+    height: 45px;
+    left: 862px;
+    top: 868px;
+    font-family: "Lovelace Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    color: #353535;
+}
+.panel{
+    position: absolute;
+    width: 1002px;
+    height: 100px;
+    left: 438px;
+    top: 934px;
+    background-color: #6b7565;
+    }
+    
+.panel .phone{
+    position: absolute;
+    width: 400px;
+    height: 39px;
+    left: 20px;
+    top: 30px;
+    font-family: "Aristotelica Pro Text";
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 25px;
+    color: #f6f7f6;
+ }   
+.panel .email{
+    position: absolute;
+    width: 316px;
+    height: 24px;
+    left: 530px;
+    top: 30px;
+    font-family: "Aristotelica Pro Text";
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 25px;
+    color: #f6f7f6;
+}

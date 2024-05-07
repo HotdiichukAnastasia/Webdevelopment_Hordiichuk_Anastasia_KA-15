@@ -1,0 +1,161 @@
+@import url('file:///Users/Admin/Desktop/Webdevelopment/css/mobile-services.css');
+@import url('file:///Users/Admin/Desktop/Webdevelopment/css/laptop-services.css');
+@font-face {
+    font-family: "Aristotelica Pro Text";
+    src:url('file:///Users/Admin/Desktop/Webdevelopment/font/aristotelica-pro-text-extralight.ttf') format("truetype") ;
+}
+@font-face {
+    font-family: 'Lovelace Text';
+    src:url('file:///Users/Admin/Desktop/Webdevelopment/font/lovelace-text-regular.ttf') format("truetype");
+}
+body{
+    position: relative;
+    margin: 0;
+    font-family: "Lovelace Text"  "Aristotelica Pro Text";
+    background-color: #f6f7f3;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    position: absolute;
+    width: 117px;
+    height: 49px;
+    left: 0px;
+    top: -5px;
+}
+h1{
+   position: absolute;
+   width: 464px;
+   height: 65px;
+   left: 505px;
+   top: -5px;
+   font-family: 'Lovelace Text';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 64px;
+   line-height: 65px;
+   color: #6b7565;
+}
+
+.panel1{
+    position: relative;
+    width: 600px;
+    height: 2000px;
+    left: 0px;
+    top: 200px;
+    background-color: #6B7565;
+}
+.panel2{
+    position: relative;
+    width: 700px;
+    height: 2000px;
+    left: 650px;
+    top: -1840px;
+    background-color: #6B7565;
+}
+.over-logo{
+    position: absolute;
+    width: 1624px;
+    height: 1241px;
+    left: -105px;
+    top: 290px;
+    mix-blend-mode: soft-light;
+    background-image: url('file:///Users/Admin/Desktop/Webdevelopment/images/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+.panel1 h2{
+    position: absolute;
+    width: 276px;
+    height: 65px;
+    left: 132px;
+    top: -105px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 65px;
+    color: #353535;
+}
+.panel2 h2{
+    position: absolute;
+    width: 376px;
+    height: 65px;
+    left: 200px;
+    top: -105px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 65px;
+    color: #353535;
+}
+.panel1 h3{
+    position: relative;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    background-color: #C3B49E;
+    color:#353535 ;
+}
+.panel2 h3{
+    position: relative;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: right;
+    background-color: #C3B49E;
+    color:#353535 ;
+}
+.panel1 ul{
+    position: relative;
+    font-family: 'Aristotelica Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 33px;
+    color: #f6f7f3;
+}
+.panel2 ul{
+    position: relative;
+    font-family: 'Aristotelica Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: right;
+    color: #f6f7f3;
+}
+footer button{
+    position: relative;
+    width: 800px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background-color: #C3B49E;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 65px;
+    text-align: center;
+    color: #353535; 
+    cursor: pointer;
+}
+footer{
+    margin-top: 0;
+    position: relative;
+    background-color: #6B7565;
+    color: #C3B49E;
+    padding: 20px;
+    text-align: left;
+    font-family: "Aristotelica Pro Text";
+    font-size: 30px;
+    height: 500px;
+}

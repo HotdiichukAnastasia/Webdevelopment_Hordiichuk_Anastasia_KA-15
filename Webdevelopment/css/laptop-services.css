@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "Aristotelica Pro Text";
+    src: url('file:///Users/Admin/Desktop/Webdevelopment/font/aristotelica-pro-text-extralight.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Lovelace Text';
+    src: url('file:///Users/Admin/Desktop/Webdevelopment/font/lovelace-text-regular.ttf') format("truetype");
+}
+
+body {
+    position: relative;
+    margin: 0;
+    font-family: "Lovelace Text", "Aristotelica Pro Text";
+    background-color: #f6f7f3;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    width: 117px;
+    height: 49px;
+    left: 0px;
+    top: -5px;
+}
+
+h1 {
+    position: absolute;
+    width: 464px;
+    height: 65px;
+    left: 505px;
+    top: -5px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 65px;
+    color: #6b7565;
+}
+
+.panel1,
+.panel2 {
+    width: 100%;
+    position: relative;
+    background-color: #6b7565; 
+    color: #353535;
+}
+
+.panel1 h2,
+.panel2 h2 {
+    position: absolute;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 65px;
+    color: #353535;
+}
+
+.panel1 h3,
+.panel2 h3 {
+    position: relative;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    background-color: #C3B49E;
+    color: #353535;
+}
+
+.panel1 ul,
+.panel2 ul {
+    position: relative;
+    font-family: 'Aristotelica Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 33px;
+    color: #f6f7f3;
+}
+
+.over-logo {
+    position: absolute;
+    width: 1624px;
+    height: 1241px;
+    left: -105px;
+    top: 290px;
+    mix-blend-mode: soft-light;
+    background-image: url('file:///Users/Admin/Desktop/Webdevelopment/images/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+footer button {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: #C3B49E;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 65px;
+    text-align: center;
+    color: #353535;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    background-color: #6b7565; 
+    color: #C3B49E;
+    padding: 20px;
+    text-align: left;
+    font-family: "Aristotelica Pro Text";
+    font-size: 30px;
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        left: 100px;
+        width: 300px;
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .panel1,
+    .panel2 {
+        width: 100%;
+        left: 0;
+        top: auto;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .panel1 h2,
+    .panel2 h2 {
+        width: 200px;
+        left: 30%;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .panel1 h3,
+    .panel2 h3 {
+        width: 200px;
+        left: 30%;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .panel1 ul,
+    .panel2 ul {
+        width: 200px;
+        left: 30%;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .over-logo {
+        position: absolute;
+        width: 1624px;
+        height: 1241px;
+        left: -105px;
+        top: auto;
+        bottom: -500px;
+        mix-blend-mode: soft-light;
+        background-image: url('file:///Users/Admin/Desktop/Webdevelopment/images/logo.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 1;
+    }
+
+    footer button {
+        width: 100%;
+        left: 0;
+        font-size: 40px;
+        line-height: 45px;
+    }
+}

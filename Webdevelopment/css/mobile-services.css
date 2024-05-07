@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Aristotelica Pro Text";
+    src: url('file:///Users/Admin/Desktop/Webdevelopment/font/aristotelica-pro-text-extralight.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Lovelace Text';
+    src: url('file:///Users/Admin/Desktop/Webdevelopment/font/lovelace-text-regular.ttf') format("truetype");
+}
+
+body {
+    position: relative;
+    margin: 0;
+    font-family: "Lovelace Text", "Aristotelica Pro Text";
+    background-color: #f6f7f3;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    width: 117px;
+    height: 49px;
+    left: 0px;
+    top: -5px;
+}
+
+h1 {
+    position: absolute;
+    width: 464px;
+    height: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -5px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #6b7565;
+}
+
+.panel1,
+.panel2 {
+    width: 100%;
+    position: relative;
+    background-color: #6b7565;
+    color: #353535;
+    margin-bottom: 20px;
+}
+
+.over-logo {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-image: url('file:///Users/Admin/Desktop/Webdevelopment/images/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+.panel1 h2,
+.panel2 h2 {
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #353535;
+}
+
+.panel1 h3,
+.panel2 h3 {
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #C3B49E;
+    color: #353535;
+}
+
+.panel1 ul,
+.panel2 ul {
+    font-family: 'Aristotelica Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #f6f7f3;
+    padding-left: 20px;
+}
+
+footer button {
+    width: 100%;
+    height: 60px;
+    background-color: #C3B49E;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #353535;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    background-color: #6b7565;
+    color: #C3B49E;
+    padding: 20px;
+    text-align: center;
+    font-family: "Aristotelica Pro Text";
+    font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .panel1,
+    .panel2 {
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+
+    .panel1 h2,
+    .panel2 h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .panel1 h3,
+    .panel2 h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .panel1 ul,
+    .panel2 ul {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    footer button {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}

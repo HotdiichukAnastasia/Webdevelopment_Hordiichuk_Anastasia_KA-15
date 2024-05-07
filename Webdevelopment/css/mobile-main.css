@@ -1,0 +1,58 @@
+@media only screen and (max-width: 600px) {
+    .top-panel {
+        width: 100%;
+        left: 0;
+        padding: 5px;
+        text-align: center;
+        height: auto;
+    }
+    
+    .top-panel .logo {
+        height: 100px;
+        width: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 10px;
+    }
+    
+    .top-panel nav a {
+        font-size: 20px;
+    }
+    
+    .language-button {
+        width: 35px;
+        height: 35px;
+        left: 95%;
+        top: 140px;
+    }
+    
+    .ua-flag, .usa-flag {
+        font-size: 30px;
+    }
+    
+    .background {
+        width: 100%;
+        height: auto;
+    }
+    
+    .content h1 {
+        width: 80%;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 32px;
+        line-height: 36px;
+    }
+    
+    .button-for-consultation, .button-for-more {
+        width: 80%;
+        left: 10%;
+        top: 80%;
+        font-size: 24px;
+        height: 70px;
+    }
+
+    footer {
+        font-size: 24px;
+    }
+}

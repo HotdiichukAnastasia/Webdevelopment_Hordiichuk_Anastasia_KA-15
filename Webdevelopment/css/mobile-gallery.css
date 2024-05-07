@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Aristotelica Pro Text";
+    src: url('file:///Users/Admin/Desktop/Webdevelopment/font/aristotelica-pro-text-extralight.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Lovelace Text';
+    src: url('file:///Users/Admin/Desktop/Webdevelopment/font/lovelace-text-regular.ttf') format("truetype");
+}
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: #353535;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lovelace Text', 'Aristotelica Pro Text', sans-serif;
+    color: #F6F7F3;
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: calc(50% - 100px);
+    top: 24px;
+}
+
+h1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 100px;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.over-logo {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+
+.work-slider h2,
+.image-slider h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.work-slider .work1,
+.work-slider .work2,
+.work-slider .work3,
+.image-slider .image1,
+.image-slider .image2,
+.image-slider .image3 {
+    width: 80%;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+footer {
+    position: relative;
+    background-color: #353535;
+    color: #C3B49E;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 150px;
+        height: 35px;
+        left: calc(50% - 75px);
+        top: 20px;
+    }
+
+    h1 {
+        top: 80px;
+        font-size: 24px;
+    }
+
+    .work-slider .work1,
+    .work-slider .work2,
+    .work-slider .work3,
+    .work-slider .work4,
+    .work-slider .work5,
+    .work-slider .work6,
+    .work-slider .work7,
+    .work-slider .work8,
+    .work-slider .work9,
+    .work-slider .work10,
+    .work-slider .work11,
+    .work-slider .work12,
+    .image-slider .image1,
+    .image-slider .image2,
+    .image-slider .image3,
+    .image-slider .image4,
+    .image-slider .image5,
+    .image-slider .image6,
+    .image-slider .image7,
+    .image-slider .image8,
+    .image-slider .image9 {
+        display: none;
+    }
+}

@@ -1,0 +1,395 @@
+@import url('file:///Users/Admin/Desktop/Webdevelopment/css/mobile-team.css');
+@import url('file:///Users/Admin/Desktop/Webdevelopment/css/laptop-team.css');
+@font-face {
+    font-family: "Aristotelica Pro Text";
+    src:url('file:///Users/Admin/Desktop/Webdevelopment/font/aristotelica-pro-text-extralight.ttf') format("truetype") ;
+}
+@font-face {
+    font-family: 'Lovelace Text';
+    src:url('file:///Users/Admin/Desktop/Webdevelopment/font/lovelace-text-regular.ttf') format("truetype");
+}
+body{
+    margin: 0;
+    font-family: "Lovelace Text" "Aristotelica Pro Text";
+    background-color: #f6f7f6;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1678px;
+    height: 1224px;
+}
+.logo{
+    position: absolute;
+    width: 281px;
+    height: 172px;
+    left: 12px;
+    top: 0px;
+    background-image: url("file:///Users/Admin/Desktop/Webdevelopment/images/logo2.png");
+}
+h1{
+    position: absolute;
+    width: 579px;
+    height: 76px;
+    left: 470px;
+    top: 0px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 76px;
+    text-align: center;
+    color: #6B7565;
+}
+.team-member1 .photo1{
+    position: absolute;
+    width: 257px;
+    height: 257px;
+    left: 0px;
+    top: 211px;
+    background-image: url("file:///Users/Admin/Desktop/Webdevelopment/images/epilationsp.jpg");
+    background-size: contain;
+    display: flex;
+    border-radius: 50%;
+}
+.team-member2 .photo2{
+    position: absolute;
+    width: 257px;
+    height: 257px;
+    left: 0px;
+    top: 556px;
+    background-image: url("file:///Users/Admin/Desktop/Webdevelopment/images/masterhc.jpg");
+    background-size: contain;
+    display: flex;
+    border-radius: 50%;
+}
+.team-member3 .photo3{
+    position: absolute;
+    width: 257px;
+    height: 257px;
+    left: 0px;
+    top: 901px;
+    background-image: url("file:///Users/Admin/Desktop/Webdevelopment/images/dermatologist.jpg");
+    background-size: contain;
+    display: flex;
+    border-radius: 50%;
+}
+.team-member4 .photo4{
+    position: absolute;
+    width: 257px;
+    height: 257px;
+    left: 0px;
+    top: 1246px;
+    background-image: url("file:///Users/Admin/Desktop/Webdevelopment/images/aesthetics.jpg");
+    background-size: contain;
+    display: flex;
+    border-radius: 50%;
+}
+.team-member5 .photo5{
+    position: absolute;
+    width: 257px;
+    height: 257px;
+    left:  0px;
+    top: 1591px;
+    background-image: url("file:///Users/Admin/Desktop/Webdevelopment/images/masseur.jpg");
+    background-size: contain;
+    display: flex;
+    border-radius: 50%;
+}
+.team-member6 .photo6{
+    position: absolute;
+    width: 257px;
+    height: 257px;
+    left: 0px;
+    top: 1936px;
+    background-image: url("file:///Users/Admin/Desktop/Webdevelopment/images/botocssp.jpg");
+    background-size: contain;
+    display: flex;
+    border-radius: 50%;
+}
+.team-member2 .panel2{
+    position: absolute;
+    width: 1090px;
+    height: 213px;
+    left: 265px;
+    top: 556px;
+    background-color: #C3B49E;
+}
+.team-member3 .panel3{
+    position: absolute;
+    width: 1090px;
+    height: 213px;
+    left: 265px;
+    top: 901px;
+    background-color: #C3B49E;
+}
+.team-member4 .panel4{
+    position: absolute;
+    width: 1090px;
+    height: 213px;
+    left: 265px;
+    top: 1246px;
+    background-color: #C3B49E;
+}
+.team-member5 .panel5{
+    position: absolute;
+    width: 1090px;
+    height: 213px;
+    left: 265px;
+    top: 1591px;
+    background-color: #C3B49E;
+}
+.team-member6 .panel6{
+    position: absolute;
+    width: 1090px;
+    height: 213px;
+    left: 265px;
+    top: 1936px;
+    background-color: #C3B49E;
+}
+.team-member1 .panel1{
+    position: absolute;
+    width: 1090px;
+    height: 213px;
+    left: 265px;
+    top: 230px;
+    background-color: #C3B49E;
+}
+.panel1 .employee-name1 {
+    position: absolute;
+    width: 261px;
+    top: -55px;
+    left: 5px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #353535;
+}
+.panel2 .employee-name2 {
+    position: absolute;
+    width: 270px;
+    top: -55px;
+    left: 5px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #353535;
+}
+.panel3 .employee-name3 {
+    position: absolute;
+    width: 261px;
+    top: -55px;
+    left: 5px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #353535;
+}
+.panel4 .employee-name4 {
+    position: absolute;
+    width: 275px;
+    top: -55px;
+    left: 5px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #353535;
+}
+.panel5 .employee-name5 {
+    position: absolute;
+    width: 350px;
+    top: -55px;
+    left: -15px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #353535;
+}
+.panel6 .employee-name6 {
+    position: absolute;
+    width: 350px;
+    top: -55px;
+    left: 5px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #353535;
+}
+.panel1 .position1{
+    position: absolute;
+    width: 289px;
+    left: -20px;
+    top: -20px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #F6F7F3;
+}
+.panel2 .position2{
+    position: absolute;
+    width: 450px;
+    left: -5px;
+    top: -20px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #F6F7F3;
+}
+.panel3 .position3{
+    position: absolute;
+    width: 450px;
+    left: -70px;
+    top: -20px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #F6F7F3;
+}
+.panel4 .position4{
+    position: absolute;
+    width: 289px;
+    left: -75px;
+    top: -20px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #F6F7F3;
+}
+.panel5 .position5{
+    position: absolute;
+    width: 350px;
+    left: -110px;
+    top: -20px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #F6F7F3;
+}
+.panel6 .position6{
+    position: absolute;
+    width: 450px;
+    left: -5px;
+    top: -20px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #F6F7F3;
+}
+.panel1 .about1{
+    position: absolute;
+    width: 1000px;
+    left: 0px;
+    top: 40px;
+    font-family: 'Aristotelica Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 16px;
+    color: #353535;    
+}
+.panel2 .about2{
+    position: absolute;
+    width: 1000px;
+    left: 0px;
+    top: 40px;
+    font-family: 'Aristotelica Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 16px;
+    color: #353535;    
+}
+.panel3 .about3{
+    position: absolute;
+    width: 1000px;
+    left: 0px;
+    top: 40px;
+    font-family: 'Aristotelica Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 16px;
+    color: #353535;    
+}
+.panel4 .about4{
+    position: absolute;
+    width: 1000px;
+    left: 0px;
+    top: 40px;
+    font-family: 'Aristotelica Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 16px;
+    color: #353535;    
+}
+.panel5 .about5{
+    position: absolute;
+    width: 1000px;
+    left: 0px;
+    top: 40px;
+    font-family: 'Aristotelica Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 16px;
+    color: #353535;    
+}
+.panel6 .about6{
+    position: absolute;
+    width: 1000px;
+    left: 0px;
+    top: 40px;
+    font-family: 'Aristotelica Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 16px;
+    color: #353535;    
+}
+.footer footer{
+    background-color: #F6F7F3;
+    color: #353535;
+    padding: 20px;
+    text-align: left;
+    font-family: "Aristotelica Pro Text";
+    font-size: 30px;
+}

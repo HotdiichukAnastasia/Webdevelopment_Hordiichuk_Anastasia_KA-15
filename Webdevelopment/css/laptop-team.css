@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Aristotelica Pro Text";
+    src: url('file:///Users/Admin/Desktop/Webdevelopment/font/aristotelica-pro-text-extralight.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Lovelace Text';
+    src: url('file:///Users/Admin/Desktop/Webdevelopment/font/lovelace-text-regular.ttf') format("truetype");
+}
+
+body {
+    margin: 0;
+    font-family: "Lovelace Text", "Aristotelica Pro Text";
+    background-color: #f6f7f6;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.logo,
+h1,
+.photo1,
+.photo2,
+.photo3,
+.photo4,
+.photo5,
+.photo6,
+.panel1,
+.panel2,
+.panel3,
+.panel4,
+.panel5,
+.panel6,
+.employee-name1,
+.employee-name2,
+.employee-name3,
+.employee-name4,
+.employee-name5,
+.employee-name6,
+.position1,
+.position2,
+.position3,
+.position4,
+.position5,
+.position6,
+.about1,
+.about2,
+.about3,
+.about4,
+.about5,
+.about6 {
+    position: static;
+    width: 100%;
+    left: auto;
+    top: auto;
+    margin: 0;
+}
+
+.photo1,
+.photo2,
+.photo3,
+.photo4,
+.photo5,
+.photo6 {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.employee-name1,
+.employee-name2,
+.employee-name3,
+.employee-name4,
+.employee-name5,
+.employee-name6 {
+    font-size: 24px;
+}
+
+.position1,
+.position2,
+.position3,
+.position4,
+.position5,
+.position6 {
+    font-size: 20px;
+}
+
+.about1,
+.about2,
+.about3,
+.about4,
+.about5,
+.about6 {
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #F6F7F3;
+    color: #353535;
+    padding: 20px;
+    text-align: left;
+    font-family: "Aristotelica Pro Text";
+    font-size: 30px;
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .photo1,
+    .photo2,
+    .photo3,
+    .photo4,
+    .photo5,
+    .photo6 {
+        width: 40%;
+    }
+
+    .employee-name1,
+    .employee-name2,
+    .employee-name3,
+    .employee-name4,
+    .employee-name5,
+    .employee-name6 {
+        font-size: 22px;
+    }
+
+    .position1,
+    .position2,
+    .position3,
+    .position4,
+    .position5,
+    .position6 {
+        font-size: 18px;
+    }
+
+    .about1,
+    .about2,
+    .about3,
+    .about4,
+    .about5,
+    .about6 {
+        font-size: 14px;
+    }
+}

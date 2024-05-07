@@ -1,0 +1,225 @@
+@import url('file:///Users/Admin/Desktop/Webdevelopment/css/mobile-review.css');
+@import url('file:///Users/Admin/Desktop/Webdevelopment/css/laptop-review.css');
+@font-face {
+    font-family: "Aristotelica Pro Text";
+    src:url('file:///Users/Admin/Desktop/Webdevelopment/font/aristotelica-pro-text-extralight.ttf') format("truetype") ;
+}
+@font-face {
+    font-family: 'Lovelace Text';
+    src:url('file:///Users/Admin/Desktop/Webdevelopment/font/lovelace-text-regular.ttf') format("truetype");
+}
+body{
+    position: relative;
+    width: 1440px;
+    height: 1435px;
+    background-color: #C3B49E;
+
+}
+.logo{
+    position: absolute;
+    width: 241px;
+    height: 126px;
+    left: 1177px;
+    top: -20px;
+    z-index: 10;
+}
+h1{
+    position: absolute;
+    width: 1024px;
+    height: 77px;
+    left: -50px;
+    top: -60px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 77px;
+    text-align: right;
+    color: #353535;
+}
+.page-photo{
+    position: relative;
+    width: 540px;
+    height: 1153px;
+    left: -43px;
+    top: 69px;
+    z-index: 5;
+}
+.panel1{
+    position: absolute;
+    width: 1014px;
+    height: 883px;
+    left: 426px;
+    top: 56px;
+    background-color: #6B7565;
+}
+.panel1 .review-info  h3{
+    position: absolute;
+    width: 174px;
+    height: 40px;
+    left: 161px;
+    top: 216px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #f6f7f3;
+} 
+.star{
+    position: relative;
+    width: 65px;
+    height: 60px;
+    left: 230px;
+    top: -150px;
+    color: #CCC15D;
+}
+.review-content{
+    position: absolute;
+    width: 888px;
+    height: 165px;
+    left: 128px;
+    top: 314px;
+    font-family: 'Aristotelica Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 33px;
+    color: #f6f7f3;
+}
+.prev-arrow{
+    display: none;
+    background-color: #C3B49E;
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #353535;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.next-arrow{
+    background-color: #C3B49E;
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #353535;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.panel2{
+    position: absolute;
+    width: 1103px;
+    height: 281px;
+    left: 412px;
+    top: 823px;
+    background-color: #f6f7f3;    
+}
+.panel2 h2{
+    position: absolute;
+    width: 357px;
+    height: 40px;
+    left: 93px;
+    top: 0px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #353535;
+}
+.name{
+    position: absolute;
+    width: 18px;
+    height: 10px;
+    left: 371px;
+    top: 91px;
+   font-family: 'Aristotelica Pro Text';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 10px;
+   color: #353535;
+}
+.name-panel{
+    box-sizing: border-box;
+    position: absolute;
+    left: 399px;
+    top: 90px;
+    border: 1px solid #353535;
+    background-color: #f6f7f3;
+}
+.comment{
+    position: absolute;
+    width: 28px;
+    height: 10px;
+    left: 371px;
+    top: 121px;
+    font-family: 'Aristotelica Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    color: #353535;
+}
+.comment-panel{
+    box-sizing: border-box;
+    position: absolute;
+    left: 371px;
+    top: 141px;
+    border: 1px solid #353535;
+    background-color: #f6f7f3;
+}
+.rating-select{
+    position: absolute;
+    background-color: #353535;
+    color: #C3B49E;
+    cursor: pointer;
+    top: 91px;
+    left: 550px;
+    font-family: 'Aristotelica Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+}
+.button{
+    position: absolute;
+    width: 213px;
+    height: 32px;
+    left: 570px;
+    top: 238px;
+    background-color: #6B7565;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #C3B49E;
+    cursor: pointer;
+}
+footer .information{
+    position: relative;
+    background-color: #C3B49E;
+    color: #353535;
+    padding: 20px;
+    text-align: left;
+    font-family: "Aristotelica Pro Text";
+    font-size: 30px;
+    bottom: -34px;
+
+}

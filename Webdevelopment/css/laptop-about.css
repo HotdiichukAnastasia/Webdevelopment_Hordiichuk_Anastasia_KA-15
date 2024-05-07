@@ -1,0 +1,76 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        width: 180px;
+        height: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 10px;
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 60px;
+        top: 10px;
+    }
+
+    .about-text {
+        width: 90%;
+        font-size: 28px;
+        line-height: 38px;
+        top: 120px;
+    }
+
+    .salon-image {
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+    }
+
+    .info {
+        width: 80%;
+        font-size: 24px;
+        line-height: 30px;
+        top: 350px;
+        left: 10%;
+    }
+
+    .contact-info h2 {
+        width: auto;
+        font-size: 30px;
+        line-height: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 730px;
+    }
+
+    .contact-info p {
+        width: 90%;
+        font-size: 24px;
+        line-height: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 780px;
+    }
+
+    .title h2 {
+        width: auto;
+        font-size: 30px;
+        line-height: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 830px;
+    }
+
+    .panel {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 900px;
+    }
+
+    .panel .phone, .panel .email {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}

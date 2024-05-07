@@ -1,0 +1,71 @@
+@import url('file:///Users/Admin/Desktop/Webdevelopment/css/mobile-modal.css');
+@import url('file:///Users/Admin/Desktop/Webdevelopment/css/laptop-modal.css');
+.modal {
+    
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    font-family: 'LoveLace', sans-serif;
+    background-color: #F6F7F3;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #353535;
+    width: 70%;
+}
+
+#closeModal {
+    color: #353535;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#closeModal:hover {
+    color: #C3B49E;
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="tel"],
+.modal-content input[type="email"],
+.modal-content input[type="date"],
+.modal-content input[type="time"] {
+    font-family: 'Aristotelica Pro Text', sans-serif;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #353535;
+    border-radius: 5px;
+}
+
+.modal-content label {
+    font-size: 18px;
+    color: #353535;
+}
+
+.modal-content button {
+    font-family: 'LoveLace', sans-serif;
+    background-color: #6B7565;
+    color: #F6F7F3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #C3B49E;
+    
+}
